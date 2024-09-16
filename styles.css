@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #444;
+}
+
+p, ul {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Task 1: Image Container */
+.image-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Task 2: SDLC Diagram in Circular Form */
+.sdlc-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sdlc-circle {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sdlc-stage {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.analysis {
+    background-color: red;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.design {
+    background-color: purple;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+.implementation {
+    background-color: green;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testing {
+    background-color: orange;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.evaluation {
+    background-color: yellow;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* Task 2: Short Essay on SDLC */
+.sdlc-essay {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
